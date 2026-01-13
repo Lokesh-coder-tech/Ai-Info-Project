@@ -142,14 +142,6 @@ img {
 @keyframes blink {
   50% { border-color: transparent }
 }
-.home .text:hover{
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
-  transition: 0.3s ease-in-out;
-}
-.home .text h2{
- position: absolute;
- display: none;
-}
 .home h1{
   color: white;
   font-size: 28px;
@@ -629,7 +621,7 @@ section {
     font-size: 20px;
     color:  rgb(226, 226, 226);
     font-size: 25px;
-    margin-left: 20rem;
+    margin-left: 17.5rem;
   }
   .navbar .navbar1 .nav-inside{
     position: absolute;
@@ -653,7 +645,7 @@ section {
   text-align: center;
 }
   .home img{
-   margin-top: 60px;
+   margin-top: 80px;
    width: 97%;
    border-radius: 10px;
  }
@@ -662,17 +654,14 @@ section {
     width: 0;
  }
  .home .text h1{
-  position: absolute;
   display: none;
 }
- .home .text h2{
-  margin-top: -20px;
-  display: block;
-  font-size: 20px;
-  color: white;
-  margin-left: -10px;
- }
+.text-scramble{
+  margin-top: -350px;
+}
+ 
  .about-content {
+    margin-top: 200px;
     flex-direction: column;
     text-align: center;
   }
@@ -697,5 +686,16 @@ section {
   .docs-content {
     margin-left: 0;
     padding: 40px 20px;
+  
+  }
+  .tools-container{
+    padding: 40px 0.5px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+  }
+  .tools-grid .tool-card{
+    padding-right: 50px;
   }
 }

@@ -10,7 +10,6 @@ const Home = () => {
     <div className='home'>
        <div className="text">
          <h1>Learn AI tools, build future-ready skills with confidence.</h1>
-         <h2>Learn AI tools, build future- <br />ready skills with confidence.</h2>
       </div>
       <img src={image} alt="" />
        <div className="text-scramble">
