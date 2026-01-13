@@ -4,10 +4,12 @@ import { Route, Routes } from 'react-router-dom'
 import AiTools from './pages/AiTools'
 import Home from './pages/Home'
 import Docs from './pages/Docs'
+import Cursor from './components/Cursor'
 
 const App = () => {
   return (
     <div>
+      <Cursor/>
       <Navbar/>
       <Routes>
         <Route path="/" element={<Home/>}/>

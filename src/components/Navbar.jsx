@@ -14,21 +14,21 @@ const Navbar = () => {
        to='/'
        onClick={() => setopen(false)}
        style={({isActive}) => ({
-        color: isActive ? "red": "rgb(226, 226, 226)"
+        color: isActive ? "#ff00ff": "rgb(226, 226, 226)"
        })}
        >Home</NavLink>
        <NavLink
        to='/aitools'
        onClick={() => setopen(false)}
        style={({isActive}) => ({
-        color: isActive ? "red": "rgb(226, 226, 226)"
+        color: isActive ? "#ff00ff": "rgb(226, 226, 226)"
        })}
        >AI Tools</NavLink>
        <NavLink
        to='/docs'
        onClick={() => setopen(false)}
        style={({isActive}) => ({
-        color: isActive ? "red": "rgb(226, 226, 226)"
+        color: isActive ? "#ff00ff": "rgb(226, 226, 226)"
        })}
        >Docs</NavLink>
       </div>
